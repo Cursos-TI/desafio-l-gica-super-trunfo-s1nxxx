@@ -147,5 +147,18 @@ int main() {
     printf("PIB per capita: %.2f\n", PIBpercapita2);
     printf("O super poder é de: %.2f\n\n", SuperPoder2);
 
+//Comparação de atributos entre 2 cartas
+
+if (PontosTuristicos1 > PontosTuristicos2) {
+	printf("Carta 1 venceu! \n");
+} else {
+	printf("Carta 2 venceu! \n");
+}
+
+if (SuperPoder1 > SuperPoder2) {
+	printf("Carta 1 venceu! \n");
+} else {
+	printf("Carta 2 venceu! \n");
+}
     return 0;
 }
