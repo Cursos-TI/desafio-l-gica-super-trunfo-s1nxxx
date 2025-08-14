@@ -149,13 +149,15 @@ int main() {
 
 //Comparação de atributos entre 2 cartas
 
+    printf("Rodada 1: Comparação entre o número de pontos turisticos")
 if (PontosTuristicos1 > PontosTuristicos2) {
 	printf("Carta 1 venceu! \n");
 } else {
 	printf("Carta 2 venceu! \n");
 }
 
-if (SuperPoder1 > SuperPoder2) {
+    printf("Rodada 2: Comparação entre a densidade populacional")
+if (DensidadePopulacional1 < DensidadePopulacional2) {
 	printf("Carta 1 venceu! \n");
 } else {
 	printf("Carta 2 venceu! \n");
