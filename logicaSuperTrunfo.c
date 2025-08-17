@@ -367,6 +367,5 @@ int opcao;
     else if (pontos2 > pontos1) printf("Vencedor: %s (ganhou %d a %d)\n", Estado2, pontos2, pontos1);
     else printf("Empate! Cada carta venceu uma vez.\n");
 
-
     return 0;
 }
